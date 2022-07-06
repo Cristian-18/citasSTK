@@ -1,7 +1,7 @@
 /* GRADIENTE
 
 background-image: radial-gradient(circle at 58.11% 96.02%, #e4f894 0, #e8ee83 10%, #ece272 20%, #eed460 30%, #f1c54e 40%, #f2b53c 50%, #f3a42c 60%, #f69321 70%, #f8811d 80%, #fb6f1f 90%, #fd5c26 100%); */
-
+/* background: linear-gradient(135deg,#FAD961,#F76B1C); */
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans+Thai+Looped:wght@300;400;700&family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100&display=swap");
 
 * {
@@ -15,6 +15,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   width: 100%;
+  background: linear-gradient(rgba(248, 139, 12, 1),rgba(248, 182, 12, 0));
 }
 a {
     text-decoration: none;
@@ -23,7 +24,7 @@ a {
 .header {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  border: 1px solid red;
+ /*  border: 1px solid red; */
   width: 90%;
   margin: 0 auto;
   padding: 30px 30px 10px 30px;
@@ -43,11 +44,13 @@ a {
 
 .header-title{
     letter-spacing: 3px;
+    color: #E6D6D6;
 }
 
 .header-subtitle {
   margin-top: 15px;
   letter-spacing: 5px;
+  color: #E6D6D6;
 }
 
 /* SECTION TEXT */
@@ -60,6 +63,7 @@ a {
 
 .section-parrafo{
     font-size: 13px;
+    color: #f4dfdf;
 }
 .text-one {
   margin-top: 10px;
@@ -78,7 +82,7 @@ a {
   width: 70%;
   height: auto;
   margin: 0 auto;
-  border: 1px solid green;
+ /*  border: 1px solid green; */
   padding: 10px;
 }
 
@@ -92,7 +96,7 @@ a {
   width: 200px;
   height: 300px;
   border-radius: 20px;
-  border: 1px solid red;
+  border: 3px solid #FFB359
 }
 
 .text-card {
@@ -104,6 +108,8 @@ a {
 .title-card {
   text-align: center;
   margin-bottom: 8px;
+  color: #797979;
+  font-weight: 600;
 }
 
 .picture{
