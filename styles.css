@@ -101,7 +101,7 @@ a {
 
 .text-card {
   align-self: end;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   /* margin-top: 110px; */
 }
 
@@ -112,11 +112,18 @@ a {
   font-weight: 600;
 }
 
+.semicirculo{
+  width: 99%;
+}
+
 .picture{
     display: flex;
     justify-content: center;
     margin-top: -70px;
+}
 
+.imagen{
+  width: 65%;
 }
 
 .list {
@@ -126,24 +133,24 @@ a {
   font-size: 0.7rem;
 }
 
-/* .container-circle {
+.container-circle {
   display: flex;
   justify-content: center;
-} */
+}
 
-/* .img-elipse {
+.img-elipse {
   width: 250px;
   margin-top: -37px;
   height: 200px;
-} */
+}
 
-/* .circle {
+.circle {
   width: 125px;
   height: 125px;
   background-color: #ffb359;
   border-radius: 50%;
   margin-top: 15px;
-} */
+}
 
 .button {
   display: flex;
